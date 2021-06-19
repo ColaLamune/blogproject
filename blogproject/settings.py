@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware'
 ]
 
-ROOT_URLCONF = 'blogproject2.urls'
+ROOT_URLCONF = 'blogproject.urls'
 
 TEMPLATES = [
     {
