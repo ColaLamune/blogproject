@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware'
 ]
 
-ROOT_URLCONF = 'blogproject.urls'
+ROOT_URLCONF = 'blogproject2.urls'
 
 TEMPLATES = [
     {
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'blogproject.wsgi.application'
+WSGI_APPLICATION = 'blogproject2.wsgi.application'
 
 
 # Database
